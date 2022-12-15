@@ -1,0 +1,154 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+h2{ 
+    width: 100%;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+ 
+.container{
+    width: 1300px; /*ANCHO DE CONTAINER CENTRAL*/
+    margin: 0 auto 0 auto;
+    padding-top: 200px;
+}
+.menu1 ul {
+    color: gray;
+    font-size: 20px;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    text-align: left;
+    margin-left: 900px;
+    margin-top: -5px;
+    
+}
+.menu1 li{
+    padding: 10px;
+    
+}
+.menu1 img{
+    width: 30px;
+}
+.menu1 a{
+    color: gray ;
+}
+.selector1{
+    border-right: 1px solid gray;
+    padding-right: 15px;
+}
+.menu2 ul{
+    padding: 10px;
+    color: gray;
+    font-size: 25px;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+}
+.menu2 li :hover{
+    padding-right: 10px;
+    padding-left: 40px;
+    background-color: yellow    ;
+}
+.menu2 li{
+    padding: 20px;
+}
+.menu2 a{
+    color: black;
+    text-decoration: none;
+    
+}
+.menu2 {
+    border-bottom: 3px solid yellow;
+}
+.cinesagrande{
+    width: 200px;
+}
+.fotofondo{
+    background-image: url(images/poster.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+.cajacentral{
+    background-color: white;
+    width: 1000px;
+    margin: 0px auto;
+}
+.menu3 ul{
+    padding: 10px;
+    color: #0076ec;
+    font-size: 25px;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.menu3 li :hover{
+    padding-right: 4px;
+    padding-left: 4px;
+    color: white;
+    background-color: #0076EC    ;
+}
+.menu3 li{
+    
+    background-color: #d3d3d3;
+}
+.menu3 a{
+    color: #004987;
+    text-decoration: none;
+    
+}
+.button{
+    padding-left: 650px;
+    color: #004987;
+    text-decoration: none;
+}
+.button a :hover{
+    color: #004987;
+    text-decoration: none;
+    margin: 10px;
+}
+.filapelis{
+
+}
+.cajapelis{
+
+}
+.fotocaja{
+
+}
+.botonespeli{
+
+}
+.abajo{
+    padding: 50px;
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    
+}
+.nada {
+    text-decoration: none;
+    list-style: none;
+    line-height: 1.7em;
+}
+.nada a{
+    text-decoration: none;
+    color: gray;
+}
+h3{
+    color: #004987;
+}
+.cajapelis {
+    width: 250px;
+    /* height: 500px; */
+    border: 1px solid #d5d5d5;
+    box-shadow: 0px 1px 20px #d5d5d5;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    font-family: "Oswald", sans-serif;
+}
